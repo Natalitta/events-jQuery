@@ -65,4 +65,9 @@ $('.module-nav').on("click", function(){
     $(allModulesCardsSelector).removeClass("card-highlight");
     $(thisModuleCardsSelector).addClass("card-highlight");
 });
+
+//To select only certain element within an element
+$('p').click(function(){
+    $(this).children("a").css("background-color", "yellow");
+});
 */
